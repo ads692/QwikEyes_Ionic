@@ -1,9 +1,5 @@
 angular.module('app.controllers', [])
   
-.controller('qwikEyesCtrl', function($scope) {
-
-})
-   
 .controller('loginCtrl', function($scope) {
 
 })
@@ -12,7 +8,27 @@ angular.module('app.controllers', [])
 
 })
    
-.controller('settingsCtrl', function($scope) {
+.controller('menuCtrl', function($scope) {
+
+})
+   
+.controller('pictureCaptureCtrl', function($scope) {
+
+})
+   
+.controller('videoCallCtrl', function($scope) {
+
+})
+   
+.controller('accountSettingsCtrl', function($scope) {
+
+})
+   
+.controller('deleteAccountCtrl', function($scope) {
+
+})
+   
+.controller('aboutQwikEyesCtrl', function($scope) {
 
 })
  

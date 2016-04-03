@@ -10,13 +10,7 @@ angular.module('app.routes', [])
     
   
 
-      .state('qwikEyes', {
-    url: '/main',
-    templateUrl: 'templates/qwikEyes.html',
-    controller: 'qwikEyesCtrl'
-  })
-
-  .state('login', {
+      .state('login', {
     url: '/login',
     templateUrl: 'templates/login.html',
     controller: 'loginCtrl'
@@ -28,10 +22,40 @@ angular.module('app.routes', [])
     controller: 'signupCtrl'
   })
 
-  .state('settings', {
+  .state('menu', {
+    url: '/menu',
+    templateUrl: 'templates/menu.html',
+    controller: 'menuCtrl'
+  })
+
+  .state('pictureCapture', {
+    url: '/pic',
+    templateUrl: 'templates/pictureCapture.html',
+    controller: 'pictureCaptureCtrl'
+  })
+
+  .state('videoCall', {
+    url: '/vid',
+    templateUrl: 'templates/videoCall.html',
+    controller: 'videoCallCtrl'
+  })
+
+  .state('accountSettings', {
     url: '/settings',
-    templateUrl: 'templates/settings.html',
-    controller: 'settingsCtrl'
+    templateUrl: 'templates/accountSettings.html',
+    controller: 'accountSettingsCtrl'
+  })
+
+  .state('deleteAccount', {
+    url: '/delete_account',
+    templateUrl: 'templates/deleteAccount.html',
+    controller: 'deleteAccountCtrl'
+  })
+
+  .state('aboutQwikEyes', {
+    url: '/about',
+    templateUrl: 'templates/aboutQwikEyes.html',
+    controller: 'aboutQwikEyesCtrl'
   })
 
 $urlRouterProvider.otherwise('/login')
