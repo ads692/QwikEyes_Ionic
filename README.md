@@ -1,1 +1,0 @@
-# QwikEyes_Ionic
